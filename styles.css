@@ -32,7 +32,7 @@ body{
     border-radius: 5px;
 }
 
-#lockImageButton{
+.lockImageButton{
     height: 1em;
     width: .8em;
     margin-top: 2px;
@@ -44,3 +44,53 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+#centralContainer{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+#mainSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#accountPromotion{
+    
+}
+
+#formContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+}
+
+#titleForm{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.formLabels{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#submitButton{
+    margin-left: 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #0077c5;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.inputText{
+    width: 100%;
+}
+
+

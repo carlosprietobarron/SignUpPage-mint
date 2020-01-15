@@ -19,14 +19,45 @@
 
             <button id="signInButton">
                 <!-- <img  src="https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png" alt="lock sign in button image"> -->
-                <span id="lockImageButton" ></span>
+                <span class="lockImageButton" ></span>
                 <span>Sign In</span>
             </button>
         </nav>
     </header>
 
+    
     <section id="mainSection" >
+        <div id="centralContainer">
+            <div id="mainHeader">
 
+            </div>
+            <div id="formContainer">
+                <div id="titleForm">
+                    <h1>Create an Intuit account</h1>
+                    <p id="accountPromotion" style="margin-bottom:0;">One account for everything Intuit, including Mint.</p>
+                    <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
+                </div>
+                <form action="#" method="POST">
+                    <label class="formLabels" for="emailField">Email address 
+                        <input class="inputText" type="email" name="emailField" id="email"> 
+                    </label>
+                    
+                    <label class="formLabels" for="telField">Phone 
+                        <input class="inputText" type="tel" name="telField" id="tel">
+                    </label>
+
+                    <label class="formLabels" for="">Password
+                        <input class="inputText" type="password" name="pwdField" id="pwd">
+                    </label>
+
+                    <button id="submitButton">
+                        <!-- <img  src="https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png" alt="lock sign in button image"> -->
+                        <span class="lockImageButton" ></span>
+                        <span>Create Account</span>
+                    </button>                   
+                </form>
+            </div>
+        </div>
     </section>
 
     <footer>
