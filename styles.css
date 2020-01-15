@@ -1,0 +1,46 @@
+
+body{
+    background-color: #eceef1;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#navSignIn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight: 200;
+}
+
+#signInOptions{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#signInOptions span{
+    display: block;
+    font-size: 13px;
+}
+
+#signInButton{
+    margin-left: 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #0077c5;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#lockImageButton{
+    height: 1em;
+    width: .8em;
+    margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top;
+    display: inline-block;
+    display: inline-block;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
