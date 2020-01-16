@@ -1,194 +1,194 @@
 
-body{
-    background-color: #eceef1;
-    font-family: Arial, Helvetica, sans-serif;   
+body {
+  background-color: #eceef1;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-label,p{
-    color: #505050;
+label,
+p {
+  color: #505050;
 }
 
-p{
-    font-size: 13px;
+p {
+  font-size: 13px;
 }
 
-a{
-    font-size: 13px;
-    text-decoration: none;
+a {
+  font-size: 13px;
+  text-decoration: none;
 }
 
 /* Nav Section */
 
-#navSignIn{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    font-weight: 200;
+#navSignIn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-weight: 200;
 }
 
-#signInOptions{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-#signInOptions span{
-    display: block;
-    font-size: 13px;
+#signInOptions {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-#signInButton{
-    margin-left: 10px;
-    font-size: 14px;
-    border: none;
-    background-color: #0077c5;
-    color: white;
-    border: 1px solid black;
-    border-radius: 5px;
+#signInOptions span {
+  display: block;
+  font-size: 13px;
 }
 
-.lockImageButton{
-    height: 1em;
-    width: .8em;
-    margin-top: 2px;
-    margin-right: 4px;
-    vertical-align: text-top;
-    display: inline-block;
-    display: inline-block;
-    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+#signInButton {
+  margin-left: 10px;
+  font-size: 14px;
+  background-color: #0077c5;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
 }
+
+.lockImageButton {
+  height: 1em;
+  width: 0.8em;
+  margin-top: 2px;
+  margin-right: 4px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 /* End of Nav Section */
+
 /* Main Section */
-#centralContainer{
-    display: flex;
-    flex-direction: column;
-    width: 370px;
+#centralContainer {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
 }
 
-#mainSection{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
+#mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 }
 
-#mainHeader{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 15px;
+#mainHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
-#upperHeader{
-    margin-top: 20px;
-    margin-bottom: 15px;
+#upperHeader {
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
-#formContainer{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    padding: 30px;
-    box-shadow: 2px 2px 2px 2px #8888889d;
+#formContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 2px 2px 2px 2px #8888889d;
 }
 
-#titleForm{
-    text-align: center;
-    margin-bottom: 20px;
+#titleForm {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-#titleForm h1{
-    font-weight: 300;
-    color: #4c4c4c;
-    margin: 10px;
+#titleForm h1 {
+  font-weight: 300;
+  color: #4c4c4c;
+  margin: 10px;
 }
 
-.formLabels{
-    display: block;
-    margin-bottom: 40px;
+.formLabels {
+  display: block;
+  margin-bottom: 40px;
 }
 
-.inputCaption
-{
-    font-size: 10px;
+.inputCaption {
+  font-size: 10px;
 }
 
-#submitButton{
-    
-    font-size: 14px;
-    border: none;
-    background-color: #0077c5;
-    color: white;
-    border: 1px solid black;
-    border-radius: 5px;
-    width:100%;
-    margin-bottom: 20px;
-    height: 50px;
+#submitButton {
+  font-size: 14px;
+  background-color: #0077c5;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 50px;
 }
 
-.inputText{
-    width: 100%;
-    margin-top: 10px;
-    height: 25px;
+.inputText {
+  width: 100%;
+  margin-top: 10px;
+  height: 25px;
 }
 
-#termsAndService{
-    font-style: italic;
-    font-size: 12px;
-    text-align: center;
-    line-height: 1.8em;
-    padding-left: 45px;
-    padding-right: 45px;
+#termsAndService {
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.8em;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 
-#termsAndService a{
-    font-size: 12px;
+#termsAndService a {
+  font-size: 12px;
 }
 
-
-#captchaStatement{
-    padding: 25px;
-    background-color: #eceef1;
-    margin-top: 20px;
-    margin-left: -30px;
-    margin-right: -30px;
-    margin-bottom: -30px;
-    text-align: center;
+#captchaStatement {
+  padding: 25px;
+  background-color: #eceef1;
+  margin-top: 20px;
+  margin-left: -30px;
+  margin-right: -30px;
+  margin-bottom: -30px;
+  text-align: center;
 }
 
-#captchaStatement a{
-    font-size: 9px;
+#captchaStatement a {
+  font-size: 9px;
 }
 
-#captchaStatement p{
-    font-size: 9px;
+#captchaStatement p {
+  font-size: 9px;
 }
 
 /* End of Main Section */
+
 /* Footer Section */
-footer{
-    margin-top: 18px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-#copyRight{
-    max-width: 700px;
+footer {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-#copyRight p{
-    margin-top: 4px;
+#copyRight {
+  max-width: 700px;
 }
 
-#legalLinks ul
-{
-    margin-bottom: 0px;
+#copyRight p {
+  margin-top: 4px;
 }
 
-#legalLinks li{
-    display: inline;
-    margin-right: 20px;
+#legalLinks ul {
+  margin-bottom: 0;
 }
+
+#legalLinks li {
+  display: inline;
+  margin-right: 20px;
+}
+
 /* End of Footer Section */
