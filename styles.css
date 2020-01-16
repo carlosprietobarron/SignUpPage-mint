@@ -71,8 +71,16 @@ a{
     margin-top: 30px;
 }
 
-#accountPromotion{
-    
+#mainHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#upperHeader{
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 #formContainer{
