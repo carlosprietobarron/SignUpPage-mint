@@ -137,3 +137,8 @@ a{
 #captchaStatement p{
     font-size: 9px;
 }
+
+footer{
+    display: flex;
+    
+}
