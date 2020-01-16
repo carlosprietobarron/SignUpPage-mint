@@ -1,8 +1,7 @@
 
 body{
     background-color: #eceef1;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;   
 }
 
 label,p{
@@ -17,6 +16,8 @@ a{
     font-size: 13px;
     text-decoration: none;
 }
+
+/* Nav Section */
 
 #navSignIn{
     display: flex;
@@ -57,7 +58,8 @@ a{
     background-size: contain;
     background-repeat: no-repeat;
 }
-
+/* End of Nav Section */
+/* Main Section */
 #centralContainer{
     display: flex;
     flex-direction: column;
@@ -163,6 +165,8 @@ a{
     font-size: 9px;
 }
 
+/* End of Main Section */
+/* Footer Section */
 footer{
     margin-top: 18px;
     display: flex;
@@ -187,3 +191,4 @@ footer{
     display: inline;
     margin-right: 20px;
 }
+/* End of Footer Section */
