@@ -96,10 +96,20 @@ a{
     margin-bottom: 20px;
 }
 
+#titleForm h1{
+    font-weight: 300;
+    color: #4c4c4c;
+    margin: 10px;
+}
 
 .formLabels{
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.inputCaption
+{
+    font-size: 10px;
 }
 
 #submitButton{
@@ -111,9 +121,8 @@ a{
     border: 1px solid black;
     border-radius: 5px;
     width:100%;
-
+    margin-bottom: 20px;
     height: 50px;
-
 }
 
 .inputText{
@@ -126,9 +135,13 @@ a{
     font-style: italic;
     font-size: 12px;
     text-align: center;
-    line-height: 1.5em;
-    padding-left: 50px;
-    padding-right: 50px;
+    line-height: 1.8em;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+#termsAndService a{
+    font-size: 12px;
 }
 
 
@@ -140,6 +153,10 @@ a{
     margin-right: -30px;
     margin-bottom: -30px;
     text-align: center;
+}
+
+#captchaStatement a{
+    font-size: 9px;
 }
 
 #captchaStatement p{
