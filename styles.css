@@ -6,7 +6,7 @@ body{
 }
 
 label,p{
-    color: #404040;
+    color: #505050;
 }
 
 p{
@@ -147,6 +147,26 @@ a{
 }
 
 footer{
+    margin-top: 18px;
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#copyRight{
+    max-width: 700px;
+}
+
+#copyRight p{
+    margin-top: 4px;
+}
+
+#legalLinks ul
+{
+    margin-bottom: 0px;
+}
+
+#legalLinks li{
+    display: inline;
+    margin-right: 20px;
 }
