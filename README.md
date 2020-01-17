@@ -1,16 +1,13 @@
 # HTML Forms Project
 
-> This is the second project on the HTML/CSS Curriculum. It's a Mint's sign up form clone. (https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS)
+> This is the second project on the HTML/CSS Curriculum. It's a Mint's [sign up form](https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS) clone. 
 
 ## Built With
 
 - HTML,
 - CSS
 
-## Live Demo
-
-https://rawcdn.githack.com/carlosprietobarron/SignUpPage-mint/c54a5f8b35e473a64d8eb39402461ff70f65811e/index.html
-
+## [Live Demo](https://rawcdn.githack.com/carlosprietobarron/SignUpPage-mint/c54a5f8b35e473a64d8eb39402461ff70f65811e/index.html)
 
 ## Authors
 
