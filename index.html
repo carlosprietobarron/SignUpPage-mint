@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mint's Sign Up Form</title>
+</head>
+<body>
+    <header>
+        <nav id="navSignIn" >
+            <div id="signInOptions" >
+                <span> Already have an Intuit account? </span>
+                <span> <a href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS#"> I forgot my User ID or Password</a>   </span>
+            </div>
+           
+            <button id="signInButton">
+                <span class="lockImageButton" ></span>
+                <span>Sign In</span>
+            </button>
+        </nav>
+    </header>
+
+    <section id="mainSection" >
+        <div id="centralContainer">
+            <div id="mainHeader">
+                <div id="upperHeader">
+                    <img id="intuitLogo" src="assets/img/intuitLogo.png" alt="Intuit Logo image">
+                </div>
+                <div id="lowerHeader">
+                    <img id="mintLg" src="assets/img/mintLogo.png"  alt="mint logo image">
+                    <img id="qbookLg" src="assets/img/qbookLogo.png" alt="quickbook logo image">
+                    <img id="tTaxLg" src="assets/img/turboTaxLogo.png" alt="turbotax logo image">
+                </div>
+            </div>
+            <div id="formContainer">
+                <div id="titleForm">
+                    <h1>Create an Intuit account</h1>
+                    <p id="accountPromotion" style="margin-bottom: 0;">One account for everything Intuit, including Mint.</p>
+                    <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
+                </div>
+                <form action="#" method="POST">
+                    <label class="formLabels" for="email">Email address 
+                        <input class="inputText" type="email" name="emailField" id="email"> 
+                    </label>
+                    
+                    <label class="formLabels" for="tel">Phone (recommended) 
+                        <input class="inputText" type="tel" name="telField" id="tel">
+                        <span class="inputCaption"> Standard call, messaging or data rates may apply.</span>
+                    </label>
+
+                    <label class="formLabels" for="pwd">Password
+                        <input class="inputText" type="password" name="pwdField" id="pwd">
+                    </label>
+
+                    <button id="submitButton">
+                        <span class="lockImageButton" ></span>
+                        <span>Create Account</span>
+                    </button>                   
+                </form>
+                <p id="termsAndService" >
+                    By clicking Create account, you agree to our
+                    <a href="https://www.mint.com/terms">Terms </a>and have read and acknowledge our <a href="https://security.intuit.com/privacy">Privacy Statement.</a></p>
+                    
+                <div id="captchaStatement">
+                    <p>Invisible reCAPTCHA by Google <a href="https://www.google.com/intl/en/policies/privacy/">Privacy Policy</a>  and <a href="https://policies.google.com/terms?hl=en">Terms of Use.</a></p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="legalLinks">
+            <ul>
+                <li> <a href="https://www.intuit.com/company/">Legal </a> </li>
+                <li> <a href="https://www.intuit.com/privacy/">Privacy </a>  </li>
+                <li> <a href="https://security.intuit.com/">Security </a> </li>
+            </ul>
+        </div>
+        <div id="copyRight">
+            <p>
+                © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+                Terms and conditions, features, support, pricing, and service options subject to change without notice.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
